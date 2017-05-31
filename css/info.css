@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Source Sans Light","Avant Garde","Tahoma","Microsoft YaHei","SimHei";
+}
+@font-face { 
+	font-family: "Source Sans Light"; 
+	font-style: normal; 
+	font-weight: normal; 
+	src: url("http://v6.res.dandyweng.com/fonts/sourcesanspro-light-webfont.eot?#iefix") 
+	format("embedded-opentype"), 
+	url("http://v6.res.dandyweng.com/fonts/sourcesanspro-light-webfont.woff2") 
+	format("woff2"), 
+	url("http://v6.res.dandyweng.com/fonts/sourcesanspro-light-webfont.woff") 
+	format("woff"), 
+	url("http://v6.res.dandyweng.com/fonts/sourcesanspro-light-webfont.ttf") 
+	format("truetype"), 
+	url("http://v6.res.dandyweng.com/fonts/sourcesanspro-light-webfont.svg#source_sans_prolight") 
+	format("svg"); 
+}
+.my-info{
+	width: 36%;
+	overflow: hidden;
+	position: absolute;
+}
+.home-img{
+	position: relative;
+	height: 100%;
+	top: 0px;
+}
+.block{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: rgba(0,0,0,0.76);
+}
+.info{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.head-img{
+	width: 128px;
+	height: 128px;
+	border-radius: 64px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 20%;
+}
+.head-img img{
+	height: 128px;
+	margin-left: -10px;
+}
+.title{
+	width: 100%;
+	height: 64px;
+	color: #fff;
+	text-align: center;
+	line-height: 64px;
+	font-size: 28px;
+}
+.slogan{
+	width: 100%;
+	height: 36px;
+	color: #fff;
+	text-align: center;
+}
+/*导航开始*/
+.nav{
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 10%;
+}
+.nav-item{
+	width: 100%;
+	height: 64px;
+	margin-top: 30px;
+	border-left: 3px solid #fff;
+	color: #fff;
+}
+.nav-item p{
+	font-size: 26px;
+	line-height: 64px;
+	margin-left: 6%;
+}
+/*导航结束*/
+
+/*个人页面页脚*/
+.footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+/*分割线开始*/
+.cut-off{
+	width: 100%;
+}
+.cut-off-line-left{
+	width: 39%;
+	height: 1.6px;
+	background-color: #fff;
+	margin-top: 10px;
+	float: left;
+}
+.cut-off-line-right{
+	width:39%;
+	height: 1.6px;
+	background-color: #fff;
+	margin-top: 10px;
+	float: right;
+}
+.cut-off-info{
+	width: 22%;
+	color: #fff;
+	text-align: center;
+	float: left;
+}
+.clear{
+	width: 100%;
+	clear: both;
+}
+/*分割线结束*/
+
+.link{
+	color: #fff;
+	font-size: 20px;
+	clear: both;
+}
+.link-icon{
+	margin:0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.link-icon i{
+	font-size: 32px;
+	margin: 3%;
+}
+/*当屏幕不超过1200px*/
+@media (max-width:1200px) {
+	.head-img{
+		width: 96px;
+		height: 96px;
+		border-radius: 48px;
+		overflow: hidden;
+		margin: 0px auto;
+		margin-top: 20%;
+	}
+	.head-img img{
+		height: 96px;
+		margin-left: -8px;
+	}
+}
